@@ -1,0 +1,6 @@
+streamlit==1.35.0
+moviepy==1.0.3
+ffmpeg-python==0.2.0
+gTTS==2.5.1
+deep-translator==1.11.4
+speechrecognition==3.10.1
