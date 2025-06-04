@@ -2,7 +2,6 @@
 
 This is a simple Streamlit web application that allows users to **upload short videos**, **extract audio**, **translate subtitles**, and **display them with translated text,with video**.
 
-> ✅ Built as part of an assignment for **Naventra**.
 
 ## 🚀 Features
 
