@@ -1,6 +1,6 @@
 # 🎥 Video Translator App
 
-This is a simple Streamlit web application that allows users to **upload short videos**, **extract audio**, **translate subtitles**, and **display them with translated text**,with video.
+This is a simple Streamlit web application that allows users to **upload short videos**, **extract audio**, **translate subtitles**, and **display them with translated text,with video**.
 
 > ✅ Built as part of an assignment for **Naventra**.
 
@@ -21,9 +21,12 @@ This is a simple Streamlit web application that allows users to **upload short v
 ## 🛠 Tech Stack
 
 - 🐍 Python
-- 🧠 `speech_recognition` for audio-to-text
-- 🌐 `googletrans` for translation
-- 📺 Streamlit for UI
+- 🎙️ `speech_recognition` – to convert audio to text
+- 🌍 `deep_translator` – for translating subtitles
+- 🗣️ `gTTS` – Google Text-to-Speech for generating translated audio
+- 🎞️ `moviepy` – for audio extraction from video
+- 🛠️ `ffmpeg` (via `ffmpeg-python`) – to merge video with translated audio
+- 🌐 Streamlit – for building the interactive UI
 
 ## ▶️ How to Run Locally
 
