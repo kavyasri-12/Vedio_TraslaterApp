@@ -50,7 +50,7 @@ def elevenlabs_tts(text, voice_id):
 st.set_page_config(page_title="🎬 ElevenLabs Video Translator", layout="centered")
 st.title("🎬 Multilingual Video Translator with ElevenLabs Voice")
 
-lang_map = {"English": "en", "Hindi": "hi", "Telugu": "te"}
+lang_map = {"English": "en", "Hindi": "hi", "Telugu": "te","French": "fr","German": "de","Spanish": "es","Italian": "it"}
 uploaded_file = st.file_uploader("Upload a video", type=["mp4", "mov", "mkv"])
 language = st.selectbox("Choose target language", list(lang_map.keys()))
 gender_preference = st.radio("Select voice gender", ["Auto-detect", "Male", "Female"], horizontal=True)
