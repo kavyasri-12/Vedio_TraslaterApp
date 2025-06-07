@@ -47,8 +47,8 @@ def elevenlabs_tts(text, voice_id):
         return None
 
 # Streamlit UI
-st.set_page_config(page_title="🎬 ElevenLabs Video Translator", layout="centered")
-st.title("🎬 Multilingual Video Translator with ElevenLabs Voice")
+st.set_page_config(page_title="🎬Video Translator", layout="centered")
+st.title("🎬 Multilingual Video Translator")
 
 lang_map = {"English": "en", "Hindi": "hi", "Telugu": "te","French": "fr","German": "de","Spanish": "es","Italian": "it"}
 uploaded_file = st.file_uploader("Upload a video", type=["mp4", "mov", "mkv"])
