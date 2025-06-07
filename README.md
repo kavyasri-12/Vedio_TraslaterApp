@@ -22,7 +22,7 @@ This is a simple Streamlit web application that allows users to **upload short v
 - 🐍 Python
 - 🎙️ `speech_recognition` – to convert audio to text
 - 🌍 `deep_translator` – for translating subtitles
-- 🗣️ `gTTS` – Google Text-to-Speech for generating translated audio
+- 🗣️ `Eleven labs` – Google Text-to-Speech for generating translated audio
 - 🎞️ `moviepy` – for audio extraction from video
 - 🛠️ `ffmpeg` (via `ffmpeg-python`) – to merge video with translated audio
 - 🌐 Streamlit – for building the interactive UI
