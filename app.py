@@ -10,7 +10,7 @@ import numpy as np
 import requests
 
 # ElevenLabs API
-ELEVEN_API_KEY = "sk_a93dda7fd4b0b819d642ad5f160625fd8bd7f6c3a46b8cf1"
+ELEVEN_API_KEY ="sk_ae0dc74caca08b34a180c7750815c6c75e2146ba426bda37"
 voice_map = {
     "male": "TxGEqnHWrfWFTfGW9XjX",     # Default male voice
     "female": "EXAVITQu4vr4xnSDxMaL"    # Default female voice
