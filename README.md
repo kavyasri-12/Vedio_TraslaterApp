@@ -11,6 +11,8 @@ This is a simple Streamlit web application that allows users to **upload short v
 - Translate subtitles to the selected language
 - Display original + translated subtitles
 - Easy-to-use Streamlit interface
+- Use your own eleven labs api key
+
 
 ## ⚠️ Limitations
 
@@ -50,10 +52,6 @@ video-translator-app/
 ├── README.md
 └── ...
 
-📩 Assignment Submission Info
-This project was submitted as part of the assignment.
-Deployed version available at:
-🌐 Streamlit App Link: https://vediotraslaterapp-nvfmfhkshbddm6tmhjfzsr.streamlit.app/
 
 🙋‍♀️ Author
 Kavyasri Kammari
